@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: spring-boot-dynamic-yml-file
+
+server:
+    port: 8080
+
+logging:
+    level:
+        org.springframework: INFO
+        com.example.demo: DEBUG
+
+#Dynamic map. You can add a new property and value.
+myapp1:
+    stringMap:
+        property1: application-value-1
+        property2: application-value-2
